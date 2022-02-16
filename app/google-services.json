@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "735610668942",
+    "firebase_url": "https://fir-db-356f9.firebaseio.com",
+    "project_id": "fir-db-356f9",
+    "storage_bucket": "fir-db-356f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735610668942:android:9bb0f93c9da0e93d09c6df",
+        "android_client_info": {
+          "package_name": "com.example.expoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735610668942-0jcapp10fd750uqrn0lc87ohgaom0bis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqHnEvk2PwLa_MCSNyPZ2ZNkZYTHc7pQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735610668942-0jcapp10fd750uqrn0lc87ohgaom0bis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735610668942:android:096b8f35ea5b51b609c6df",
+        "android_client_info": {
+          "package_name": "com.tarun.efruit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735610668942-0jcapp10fd750uqrn0lc87ohgaom0bis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqHnEvk2PwLa_MCSNyPZ2ZNkZYTHc7pQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735610668942-0jcapp10fd750uqrn0lc87ohgaom0bis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#09022D"
+    tools:context=".AdminLoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#09022D">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/adminanim"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        app:lottie_rawRes="@raw/adlogin"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/deliveryanim"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:lottie_rawRes="@raw/delivery"
+            android:layout_centerHorizontal="true"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/loghead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/background"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <!--User Phone-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:textColorHint="@color/Yellow"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Login Credentials"
+        android:layout_marginTop="20dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:counterTextColor="@color/Yellow"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/background"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/usernameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:inputType="phone"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--User Password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/password"
+        android:textColorHint="@color/Yellow"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Password"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/Yellow"
+        app:passwordToggleContentDescription="Hide/Unhide"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/background"
+        app:hintTextColor="@color/Yellow"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/loginPwd"
+        android:text="Login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF0090"
+        android:textStyle="bold"/>
+</LinearLayout>
